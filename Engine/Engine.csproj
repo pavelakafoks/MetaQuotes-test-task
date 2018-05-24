@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13D25B82-E389-4935-8BF4-BE547C9CFD18}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Engine</RootNamespace>
+    <AssemblyName>Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attribute\Extentions.cs" />
+    <Compile Include="Attribute\LengthBytesAttribute.cs" />
+    <Compile Include="Geobase\Combined\DataDescription\GeobaseLocationCityIndexesCombined.cs" />
+    <Compile Include="Geobase\Combined\GeobaseEngineCombined.cs" />
+    <Compile Include="Geobase\Combined\DataDescription\GeobaseLocationCityCombined.cs" />
+    <Compile Include="Geobase\Dirrect\DataDescription\GeobaseCityIndexDirrect.cs" />
+    <Compile Include="Geobase\Dirrect\GeobaseEngineDirrect.cs" />
+    <Compile Include="Geobase\Dirrect\DataDescription\GeobaseHeaderDirrect.cs" />
+    <Compile Include="Geobase\Dirrect\DataDescription\GeobaseIpRangeDirrect.cs" />
+    <Compile Include="Geobase\Dirrect\DataDescription\GeobaseLocationDirrect.cs" />
+    <Compile Include="Geobase\GeobaseLocationView.cs" />
+    <Compile Include="Geobase\IGeobaseEngine.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\Arrays\GeobaseCityIndexesMarshal.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\Arrays\GeobaseLocationsPart.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\GeobaseCityIndexMarshal.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\Arrays\GeobaseLocationsMarshal.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\Arrays\GeobaseIpRangesMarshal.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\GeobaseDataMarshal.cs" />
+    <Compile Include="Geobase\Marshal\GeobaseEngineMarshal.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\GeobaseHeaderMarshal.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\GeobaseIpRangeMarshal.cs" />
+    <Compile Include="Geobase\Marshal\DataDescription\GeobaseLocationMarshal.cs" />
+    <Compile Include="Helpers\ByteHelper.cs" />
+    <Compile Include="Helpers\IpHelper.cs" />
+    <Compile Include="Helpers\TransformationHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

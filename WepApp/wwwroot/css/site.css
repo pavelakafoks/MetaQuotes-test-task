@@ -1,0 +1,28 @@
+body { padding-top: 50px; padding-bottom: 20px;}
+.body-content { padding-left: 15px; padding-right: 15px;}
+
+table th{text-align: center}
+table td{padding: 7px;}
+
+
+.indexPage .searchButton { display: block; margin: 20px; width: 80%;}
+.indexPage .errorMessage { display: none; padding-top: 40px; color: red}
+
+
+
+.indexPage .ipSearchPanel .ipInput {width: 200px; margin-bottom: 20px}
+.indexPage .ipSearchPanel .ipWrapper { padding-top: 40px; display: inline;}
+.indexPage .ipSearchPanel .ipWrapper label{width: 70px}
+.indexPage .ipSearchPanel .ipWrapper .form-control { display: inline;}
+.indexPage .ipSearchPanel .ipFindButton { margin-bottom: 5px; margin-left: 20px}
+.indexPage .ipSearchPanel .ipResults { display: none; padding-top: 20px}
+.indexPage .ipSearchPanel dd{padding-left: 20px}
+
+
+.indexPage .citySearchPanel {display: none}
+.indexPage .citySearchPanel .cityInput {width: 200px; margin-bottom: 20px}
+.indexPage .citySearchPanel .cityWrapper { padding-top: 40px; display: inline;}
+.indexPage .citySearchPanel .cityWrapper label{width: 70px}
+.indexPage .citySearchPanel .cityWrapper .form-control { display: inline;}
+.indexPage .citySearchPanel .cityFindButton { margin-bottom: 5px; margin-left: 20px}
+.indexPage .citySearchPanel .cityResults { display: none; padding-top: 20px}

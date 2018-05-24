@@ -1,0 +1,23 @@
+﻿@page
+<div class="row indexPage">
+    <div class="col-md-2">
+        <h2>Тип поиска</h2>
+        <button type="button" class="btn btn-primary disabled searchByIp searchButton">По IP адресу</button>
+        <button type="button" class="btn btn-info searchByCity searchButton">По городу</button>
+    </div>
+    <div class="col-md-10 results">
+        @await Html.PartialAsync("_IndexIpSearchPanel")
+        @await Html.PartialAsync("_IndexCitySearchPanel")
+
+        <div class="errorMessage">
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function() {
+            var application = new WebApp.Index({container: ".indexPage"});
+        });
+    </script>
+}

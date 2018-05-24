@@ -1,0 +1,37 @@
+﻿<div class="citySearchPanel">
+    <h2>Поиск по городу</h2>
+    <div class="form-group cityWrapper">
+        <label for="exampleInputEmail2">Город: </label>
+        <input class="form-control cityInput" maxlength="24">
+    </div>
+    <button class="btn btn-warning cityFindButton">Поиск</button>
+
+    <table class="cityResults">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Country</th>
+                <th>Region</th>
+                <th>Postal</th>
+                <th>Organization</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script id="templateLocation" type="text/template">
+        <tr>
+            <td class="counterLocation"></td>
+            <td class="countryLocation"></td>
+            <td class="regionLocation"></td>
+            <td class="postalLocation"></td>
+            <td class="organizationLocation"></td>
+            <td class="latitudeLocation"></td>
+            <td class="longitudeLocation"></td>
+        </tr>
+    </script>
+
+</div>
+

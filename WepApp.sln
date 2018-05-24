@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApp", "WepApp\WepApp.csproj", "{CE5111E0-7990-427B-9C7D-3DECCFDBD5EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "UnitTestProject\TestProject.csproj", "{CDF18014-9E08-4E8A-BD10-FAC4892F92F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{13D25B82-E389-4935-8BF4-BE547C9CFD18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE5111E0-7990-427B-9C7D-3DECCFDBD5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5111E0-7990-427B-9C7D-3DECCFDBD5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5111E0-7990-427B-9C7D-3DECCFDBD5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5111E0-7990-427B-9C7D-3DECCFDBD5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF18014-9E08-4E8A-BD10-FAC4892F92F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF18014-9E08-4E8A-BD10-FAC4892F92F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF18014-9E08-4E8A-BD10-FAC4892F92F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF18014-9E08-4E8A-BD10-FAC4892F92F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D25B82-E389-4935-8BF4-BE547C9CFD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D25B82-E389-4935-8BF4-BE547C9CFD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D25B82-E389-4935-8BF4-BE547C9CFD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D25B82-E389-4935-8BF4-BE547C9CFD18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EC93F3D-CCA9-4EF9-82D3-34015A4BFF80}
+	EndGlobalSection
+EndGlobal
