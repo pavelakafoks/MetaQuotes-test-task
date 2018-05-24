@@ -1,3 +1,10 @@
+# MetaQuotes-test-task
+MetaQuotes test task - .Net Developer position
+
+It is a Russian company thats why the task in Russian.
+
+
+
 **Задача:**
 
 Разработать веб-приложение для получения координат пользователя по его IP-адресу и получения списка местоположений по названию города.
